@@ -1,0 +1,7 @@
+Put the MySQL JDBC driver in this folder before building.
+
+1. Go to https://dev.mysql.com/downloads/connector/j/
+2. Choose "Platform Independent" and download the ZIP archive.
+3. Unzip it and copy mysql-connector-j-9.x.x.jar into this lib folder.
+
+build.bat / run.bat (Windows) and build.sh / run.sh (Mac/Linux) pick up every jar in lib automatically.
